@@ -39,6 +39,22 @@ These examples answer the question: *"What does it actually look like when the f
 
 **Key takeaway:** All 8 agents ran in parallel and produced coherent, cross-referencing plans without coordination overhead. The output demonstrates the agency's ability to go from "find an opportunity" to "here's the full blueprint" in a single session.
 
+### [tool-integrations.md](./tool-integrations.md)
+
+**What:** Step-by-step integration guides for loading Agency agents into the tools you already use.
+
+**Tools covered:**
+| Tool | Integration Method |
+|------|--------------------|
+| Claude Code | `~/.claude/agents/` directory, `CLAUDE.md` project config |
+| Cursor AI | `.cursor/rules/` MDC files, glob-pattern agent routing |
+| GitHub Copilot | `.github/copilot-instructions.md`, VS Code settings |
+| ChatGPT | Custom GPTs, Projects, system prompts |
+| Windsurf | `.windsurfrules`, Cascade multi-step workflows |
+| Aider | `CONVENTIONS.md`, CLI flags, automated agent pipelines |
+
+**Key takeaway:** Every major AI coding tool can load these agents with minimal configuration. The guide also covers cross-tool handoff patterns for full feature lifecycles.
+
 ## Adding New Examples
 
 If you run an interesting multi-agent exercise, consider adding it here. Good examples show:
