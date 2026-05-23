@@ -316,7 +316,7 @@ Each agent is designed with:
 - [ ] Video tutorials on agent design
 - [ ] Community agent marketplace
 - [ ] Agent "personality quiz" for project matching
-- [ ] Integration examples with popular tools
+- [x] Integration examples with popular tools — see [examples/tool-integrations.md](examples/tool-integrations.md)
 - [ ] "Agent of the Week" showcase series
 
 ---
